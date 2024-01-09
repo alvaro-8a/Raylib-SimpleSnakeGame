@@ -8,7 +8,6 @@ using namespace std;
 
 Snake::Snake(int cellSize, int cellCount, int offset)
     : mCellSize(cellSize), 
-    mCellCount(cellCount), 
     mOffset(offset)
 {
     body = { Vector2{6,9}, Vector2{5,9}, Vector2{4,9} };

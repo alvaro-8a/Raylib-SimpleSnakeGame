@@ -19,7 +19,6 @@ public:
 
 private:
     int mCellSize;
-    int mCellCount;
     int mOffset; 
 };
 
