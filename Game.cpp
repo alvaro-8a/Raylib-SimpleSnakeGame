@@ -58,6 +58,11 @@ void Game::Shutdown()
     UnloadSound(mEatSound);
     UnloadSound(mWallSound);
     UnloadSound(mGameOver);
+
+    // Free memory
+    delete pSnake;
+    delete pFood;
+
     CloseAudioDevice();
     CloseWindow();
 }
